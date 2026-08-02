@@ -39,7 +39,7 @@ const ENTRIES = [
     date: 'June 2026',
     tag: 'Release',
     changes: [
-      '23 production-ready browser-first tools',
+      '5 production-ready browser-first image tools',
       'Tool Engine with 7-stage lifecycle',
       'Manifest-driven architecture with Zod validation',
       'Registry auto-discovery with 8 generated artifacts',

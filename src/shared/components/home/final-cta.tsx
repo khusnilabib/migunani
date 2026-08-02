@@ -25,7 +25,7 @@ export function FinalCta() {
                 Ready to work privately?
               </h2>
               <p className="text-sm text-muted-foreground text-pretty">
-                Browse 23 tools that respect your privacy. No sign-up required.
+                Browse image tools that respect your privacy. No sign-up required.
               </p>
               <div className="flex flex-col gap-2 sm:flex-row">
                 <Button asChild size="lg" className="h-12 px-6">

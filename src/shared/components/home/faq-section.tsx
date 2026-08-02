@@ -12,7 +12,7 @@ import { SectionHeading } from '@/shared/components/section-heading';
 const FAQS = [
   {
     question: 'Do I need to create an account?',
-    answer: 'No. All 23 tools work without any account or sign-up. You can start using any tool immediately. Accounts are optional and only add features like history sync and favorites across devices.',
+    answer: 'No. All tools work without any account or sign-up. You can start using any tool immediately. Accounts are optional and only add features like history sync and favorites across devices.',
   },
   {
     question: 'Are my files uploaded to a server?',
@@ -20,7 +20,7 @@ const FAQS = [
   },
   {
     question: 'Is Migunani really free?',
-    answer: 'Yes. All 23 tools are completely free with no usage limits, no watermarks, and no premium tier. We don\'t sell your data because we never collect it in the first place.',
+    answer: 'Yes. All tools are completely free with no usage limits, no watermarks, and no premium tier. We don\'t sell your data because we never collect it in the first place.',
   },
   {
     question: 'How is this different from other tool sites?',

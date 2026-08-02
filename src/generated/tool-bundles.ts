@@ -15,30 +15,6 @@ export interface ToolInputFormProps {
 }
 
 export const toolBundles: Record<string, ToolBundleLoader> = {
-  ["developer/base64-encoder"]: {
-    loadManifest: () => import("@/tools/developer/base64-encoder/manifest"),
-    loadInputForm: () => import("@/tools/developer/base64-encoder/components/InputForm"),
-  },
-  ["developer/hash-generator"]: {
-    loadManifest: () => import("@/tools/developer/hash-generator/manifest"),
-    loadInputForm: () => import("@/tools/developer/hash-generator/components/InputForm"),
-  },
-  ["developer/json-formatter"]: {
-    loadManifest: () => import("@/tools/developer/json-formatter/manifest"),
-    loadInputForm: () => import("@/tools/developer/json-formatter/components/InputForm"),
-  },
-  ["developer/jwt-decoder"]: {
-    loadManifest: () => import("@/tools/developer/jwt-decoder/manifest"),
-    loadInputForm: () => import("@/tools/developer/jwt-decoder/components/InputForm"),
-  },
-  ["developer/url-encoder"]: {
-    loadManifest: () => import("@/tools/developer/url-encoder/manifest"),
-    loadInputForm: () => import("@/tools/developer/url-encoder/components/InputForm"),
-  },
-  ["developer/uuid-generator"]: {
-    loadManifest: () => import("@/tools/developer/uuid-generator/manifest"),
-    loadInputForm: () => import("@/tools/developer/uuid-generator/components/InputForm"),
-  },
   ["image/image-compress"]: {
     loadManifest: () => import("@/tools/image/image-compress/manifest"),
     loadInputForm: () => import("@/tools/image/image-compress/components/InputForm"),
@@ -58,53 +34,5 @@ export const toolBundles: Record<string, ToolBundleLoader> = {
   ["image/image-rotate"]: {
     loadManifest: () => import("@/tools/image/image-rotate/manifest"),
     loadInputForm: () => import("@/tools/image/image-rotate/components/InputForm"),
-  },
-  ["pdf/pdf-compress"]: {
-    loadManifest: () => import("@/tools/pdf/pdf-compress/manifest"),
-    loadInputForm: () => import("@/tools/pdf/pdf-compress/components/InputForm"),
-  },
-  ["pdf/pdf-extract-pages"]: {
-    loadManifest: () => import("@/tools/pdf/pdf-extract-pages/manifest"),
-    loadInputForm: () => import("@/tools/pdf/pdf-extract-pages/components/InputForm"),
-  },
-  ["pdf/pdf-merge"]: {
-    loadManifest: () => import("@/tools/pdf/pdf-merge/manifest"),
-    loadInputForm: () => import("@/tools/pdf/pdf-merge/components/InputForm"),
-  },
-  ["pdf/pdf-protect"]: {
-    loadManifest: () => import("@/tools/pdf/pdf-protect/manifest"),
-    loadInputForm: () => import("@/tools/pdf/pdf-protect/components/InputForm"),
-  },
-  ["pdf/pdf-rotate"]: {
-    loadManifest: () => import("@/tools/pdf/pdf-rotate/manifest"),
-    loadInputForm: () => import("@/tools/pdf/pdf-rotate/components/InputForm"),
-  },
-  ["pdf/pdf-split"]: {
-    loadManifest: () => import("@/tools/pdf/pdf-split/manifest"),
-    loadInputForm: () => import("@/tools/pdf/pdf-split/components/InputForm"),
-  },
-  ["pdf/pdf-unlock"]: {
-    loadManifest: () => import("@/tools/pdf/pdf-unlock/manifest"),
-    loadInputForm: () => import("@/tools/pdf/pdf-unlock/components/InputForm"),
-  },
-  ["text/case-converter"]: {
-    loadManifest: () => import("@/tools/text/case-converter/manifest"),
-    loadInputForm: () => import("@/tools/text/case-converter/components/InputForm"),
-  },
-  ["text/remove-duplicate-lines"]: {
-    loadManifest: () => import("@/tools/text/remove-duplicate-lines/manifest"),
-    loadInputForm: () => import("@/tools/text/remove-duplicate-lines/components/InputForm"),
-  },
-  ["text/sort-lines"]: {
-    loadManifest: () => import("@/tools/text/sort-lines/manifest"),
-    loadInputForm: () => import("@/tools/text/sort-lines/components/InputForm"),
-  },
-  ["text/text-diff"]: {
-    loadManifest: () => import("@/tools/text/text-diff/manifest"),
-    loadInputForm: () => import("@/tools/text/text-diff/components/InputForm"),
-  },
-  ["text/word-counter"]: {
-    loadManifest: () => import("@/tools/text/word-counter/manifest"),
-    loadInputForm: () => import("@/tools/text/word-counter/components/InputForm"),
   },
 };

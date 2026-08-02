@@ -21,7 +21,7 @@ export function HomeHero() {
           <div className="mb-6 flex justify-center animate-fade-in">
             <Badge variant="secondary" className="gap-1.5 px-3 py-1 text-xs">
               <Sparkles className="h-3 w-3" aria-hidden />
-              23 tools and growing
+              5 image tools and growing
             </Badge>
           </div>
 
@@ -50,7 +50,7 @@ export function HomeHero() {
               <Input
                 type="search"
                 name="q"
-                placeholder="Search 23 tools..."
+                placeholder="Search image tools..."
                 className="h-11 pl-9"
                 aria-label="Search tools"
               />
@@ -68,7 +68,7 @@ export function HomeHero() {
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="h-11 px-6">
-              <Link href="/tools/text/case-converter">
+              <Link href="/tools/image/image-resize">
                 Try a tool
               </Link>
             </Button>

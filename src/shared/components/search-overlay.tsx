@@ -35,11 +35,11 @@ const RECENT_KEY = 'search-recent';
 const MAX_RECENT = 8;
 
 const POPULAR_SEARCHES = [
-  'merge pdf',
   'resize image',
-  'format json',
-  'base64',
-  'compress',
+  'compress image',
+  'crop image',
+  'rotate image',
+  'convert to webp',
 ];
 
 function loadRecent(): string[] {
@@ -358,7 +358,7 @@ export function SearchOverlay() {
 
               <div className="rounded-lg border border-dashed border-border p-4 text-center">
                 <p className="text-xs text-muted-foreground">
-                  Type to search across all 23 tools, categories, and quick actions.
+                  Type to search across all tools, categories, and quick actions.
                 </p>
               </div>
             </div>

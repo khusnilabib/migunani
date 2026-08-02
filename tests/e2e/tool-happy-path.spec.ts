@@ -1,13 +1,13 @@
 // tests/e2e/tool-happy-path.spec.ts — E2E happy path for representative tools.
-// Covers one tool per category (4 tools) to validate the full Tool Engine pipeline.
+// Covers representative image tools to validate the full Tool Engine pipeline.
 import { test, expect } from '@playwright/test';
 import { checkAccessibility } from './accessibility';
 
 const SAMPLE_TOOLS = [
-  { category: 'text', slug: 'case-converter', title: /Case Converter/i },
-  { category: 'developer', slug: 'base64-encoder', title: /Base64/i },
-  { category: 'developer', slug: 'uuid-generator', title: /UUID/i },
-  { category: 'developer', slug: 'hash-generator', title: /Hash/i },
+  { category: 'image', slug: 'image-resize', title: /Resize/i },
+  { category: 'image', slug: 'image-compress', title: /Compress/i },
+  { category: 'image', slug: 'image-crop', title: /Crop/i },
+  { category: 'image', slug: 'image-format-convert', title: /Convert/i },
 ];
 
 test.describe('Tool happy path — representative tools', () => {
@@ -64,31 +64,13 @@ test.describe('Tool happy path — representative tools', () => {
   }
 });
 
-test.describe('Tool URL routing — all 23 tools reachable', () => {
+test.describe('Tool URL routing — all image tools reachable', () => {
   const ALL_TOOLS = [
-    ['text', 'case-converter'],
-    ['text', 'word-counter'],
-    ['text', 'remove-duplicate-lines'],
-    ['text', 'sort-lines'],
-    ['text', 'text-diff'],
-    ['developer', 'base64-encoder'],
-    ['developer', 'url-encoder'],
-    ['developer', 'uuid-generator'],
-    ['developer', 'jwt-decoder'],
-    ['developer', 'json-formatter'],
-    ['developer', 'hash-generator'],
     ['image', 'image-resize'],
     ['image', 'image-compress'],
     ['image', 'image-crop'],
     ['image', 'image-rotate'],
     ['image', 'image-format-convert'],
-    ['pdf', 'pdf-merge'],
-    ['pdf', 'pdf-split'],
-    ['pdf', 'pdf-compress'],
-    ['pdf', 'pdf-rotate'],
-    ['pdf', 'pdf-extract-pages'],
-    ['pdf', 'pdf-protect'],
-    ['pdf', 'pdf-unlock'],
   ] as const;
 
   for (const [category, slug] of ALL_TOOLS) {

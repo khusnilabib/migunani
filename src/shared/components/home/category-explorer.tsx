@@ -1,7 +1,7 @@
 // src/shared/components/home/category-explorer.tsx — Interactive category explorer.
 
 import Link from 'next/link';
-import { ArrowUpRight, ImageIcon, FileText, Code, Type } from 'lucide-react';
+import { ArrowUpRight, ImageIcon } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { PageContainer } from '@/shared/components/page-container';
@@ -18,21 +18,6 @@ const CATEGORY_META: Record<string, {
     icon: ImageIcon,
     gradient: 'from-blue-500/10 to-blue-600/5',
     description: 'Resize, compress, crop, rotate, and convert images — all in your browser.',
-  },
-  pdf: {
-    icon: FileText,
-    gradient: 'from-red-500/10 to-red-600/5',
-    description: 'Merge, split, compress, rotate, extract, protect, and unlock PDF documents.',
-  },
-  developer: {
-    icon: Code,
-    gradient: 'from-green-500/10 to-green-600/5',
-    description: 'JSON, Base64, URL, JWT, UUID, and hash utilities for everyday engineering.',
-  },
-  text: {
-    icon: Type,
-    gradient: 'from-purple-500/10 to-purple-600/5',
-    description: 'Convert case, dedupe, sort, count, and diff text instantly.',
   },
 };
 

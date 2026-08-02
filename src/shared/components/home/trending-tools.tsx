@@ -11,11 +11,11 @@ import { routes } from '@/shared/config/routes';
 
 // Simulated trending scores (in production, these would come from analytics)
 const TRENDING = [
-  { slug: 'pdf-merge', score: 98, change: '+12%' },
-  { slug: 'image-compress', score: 95, change: '+8%' },
-  { slug: 'json-formatter', score: 92, change: '+5%' },
-  { slug: 'base64-encoder', score: 89, change: '+3%' },
-  { slug: 'image-resize', score: 87, change: '+2%' },
+  { slug: 'image-compress', score: 98, change: '+12%' },
+  { slug: 'image-resize', score: 95, change: '+8%' },
+  { slug: 'image-format-convert', score: 92, change: '+5%' },
+  { slug: 'image-crop', score: 89, change: '+3%' },
+  { slug: 'image-rotate', score: 87, change: '+2%' },
 ];
 
 export function TrendingTools() {

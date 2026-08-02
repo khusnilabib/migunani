@@ -25,7 +25,7 @@ export async function GET(): Promise<Response> {
   ];
 
   // Add category pages
-  const categories = ['text', 'developer', 'image', 'pdf'];
+  const categories = ['image'];
   for (const cat of categories) {
     urls.push({
       loc: `${siteConfig.url}/tools/${cat}`,

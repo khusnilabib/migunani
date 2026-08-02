@@ -79,7 +79,7 @@ export default function AdminAnalyticsPage() {
             <CardTitle className="text-sm font-medium">Top Tools (by executions)</CardTitle>
           </CardHeader>
           <CardContent className="space-y-3">
-            {['PDF Merger', 'Image Resizer', 'JSON Formatter', 'Base64 Encoder', 'Case Converter'].map((tool, i) => (
+            {['Image Resizer', 'Image Compressor', 'Format Converter', 'Image Cropper', 'Image Rotator'].map((tool, i) => (
               <div key={tool} className="space-y-1">
                 <div className="flex items-center justify-between text-xs">
                   <span className="font-medium">{tool}</span>
@@ -158,7 +158,7 @@ export default function AdminAnalyticsPage() {
           <div className="mt-4">
             <p className="mb-2 text-xs font-medium text-muted-foreground">Popular Keywords</p>
             <div className="flex flex-wrap gap-2">
-              {['merge pdf', 'resize image', 'format json', 'base64', 'compress', 'uuid', 'case converter'].map((kw) => (
+              {['resize image', 'compress image', 'png to jpg', 'crop image', 'rotate image', 'convert to webp', 'reduce image size'].map((kw) => (
                 <Badge key={kw} variant="secondary" className="text-xs">{kw}</Badge>
               ))}
             </div>

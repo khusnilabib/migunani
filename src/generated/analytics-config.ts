@@ -5,36 +5,6 @@ import type { AnalyticsConfigEntry } from "@packages/types";
 
 export const analyticsConfig: AnalyticsConfigEntry[] = [
   {
-    slug: "base64-encoder",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
-    slug: "hash-generator",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
-    slug: "json-formatter",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
-    slug: "jwt-decoder",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
-    slug: "url-encoder",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
-    slug: "uuid-generator",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
     slug: "image-compress",
     funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
     customEvents: [],
@@ -56,66 +26,6 @@ export const analyticsConfig: AnalyticsConfigEntry[] = [
   },
   {
     slug: "image-rotate",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
-    slug: "pdf-compress",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
-    slug: "pdf-extract-pages",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
-    slug: "pdf-merge",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
-    slug: "pdf-protect",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
-    slug: "pdf-rotate",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
-    slug: "pdf-split",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
-    slug: "pdf-unlock",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
-    slug: "case-converter",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
-    slug: "remove-duplicate-lines",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
-    slug: "sort-lines",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
-    slug: "text-diff",
-    funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
-    customEvents: [],
-  },
-  {
-    slug: "word-counter",
     funnelSteps: ["tool_viewed","tool_started","processing_completed","download_completed"],
     customEvents: [],
   },

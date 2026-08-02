@@ -169,7 +169,7 @@ export default function AdminGrowthPage() {
           </CardHeader>
           <CardContent>
             <div className="space-y-2">
-              {['/', '/tools/pdf/pdf-merge', '/tools/image/image-resize', '/tools/developer/json-formatter'].map((page) => (
+              {['/', '/tools/image/image-resize', '/tools/image/image-compress', '/tools/image/image-format-convert'].map((page) => (
                 <div key={page} className="flex items-center justify-between rounded-md border border-border p-2 text-xs">
                   <span className="font-mono">{page}</span>
                   <span className="tabular-nums text-muted-foreground">— visits</span>
@@ -185,7 +185,7 @@ export default function AdminGrowthPage() {
           </CardHeader>
           <CardContent>
             <div className="space-y-2">
-              {['/tools/text/case-converter', '/tools/image/image-compress', '/about', '/tools'].map((page) => (
+              {['/tools/image/image-crop', '/tools/image/image-rotate', '/about', '/tools'].map((page) => (
                 <div key={page} className="flex items-center justify-between rounded-md border border-border p-2 text-xs">
                   <span className="font-mono">{page}</span>
                   <span className="tabular-nums text-muted-foreground">— exits</span>

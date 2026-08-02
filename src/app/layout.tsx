@@ -33,9 +33,9 @@ export const metadata: Metadata = {
   keywords: [
     'productivity tools',
     'image tools',
-    'pdf tools',
-    'developer tools',
-    'text tools',
+    'image resizer',
+    'image compressor',
+    'image converter',
     'browser tools',
     'online tools',
     'free tools',

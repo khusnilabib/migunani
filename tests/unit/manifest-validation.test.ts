@@ -4,8 +4,8 @@ import { toolCategorySchema, featureLifecycleSchema, toolLimitsSchema } from '@p
 describe('Manifest Validation', () => {
   it('validates tool category', () => {
     expect(toolCategorySchema.safeParse('image').success).toBe(true);
-    expect(toolCategorySchema.safeParse('pdf').success).toBe(true);
-    expect(toolCategorySchema.safeParse('developer').success).toBe(true);
+    expect(toolCategorySchema.safeParse('pdf').success).toBe(false);
+    expect(toolCategorySchema.safeParse('developer').success).toBe(false);
     expect(toolCategorySchema.safeParse('invalid').success).toBe(false);
   });
 

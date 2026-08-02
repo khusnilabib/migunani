@@ -1,7 +1,7 @@
 // src/shared/components/home/popular-categories.tsx — Popular categories section.
 
 import Link from 'next/link';
-import { ArrowUpRight, ImageIcon, FileText, Code, Type } from 'lucide-react';
+import { ArrowUpRight, ImageIcon } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { PageContainer } from '@/shared/components/page-container';
 import { SectionHeading } from '@/shared/components/section-heading';
@@ -10,9 +10,6 @@ import { routes } from '@/shared/config/routes';
 
 const CATEGORY_ICONS: Record<string, React.ElementType> = {
   image: ImageIcon,
-  pdf: FileText,
-  developer: Code,
-  text: Type,
 };
 
 export function PopularCategories() {

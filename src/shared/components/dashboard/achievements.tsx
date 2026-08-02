@@ -17,7 +17,7 @@ const ACHIEVEMENTS: Achievement[] = [
   { icon: Flame, title: 'On Fire', description: 'Used tools 7 days in a row', unlocked: true },
   { icon: Target, title: 'Power User', description: 'Executed 50 tools', unlocked: false },
   { icon: Crown, title: 'Explorer', description: 'Tried all categories', unlocked: false },
-  { icon: Trophy, title: 'Champion', description: 'Used all 23 tools', unlocked: false },
+  { icon: Trophy, title: 'Champion', description: 'Used every image tool', unlocked: false },
 ];
 
 export function Achievements() {
