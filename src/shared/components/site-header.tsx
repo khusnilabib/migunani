@@ -17,8 +17,6 @@ import {
   Command,
   Image as ImageIcon,
   FileText,
-  Code,
-  Type,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -62,9 +60,6 @@ import { cn } from '@/lib/utils';
 
 const CATEGORY_ICONS: Record<string, React.ElementType> = {
   image: ImageIcon,
-  pdf: FileText,
-  developer: Code,
-  text: Type,
 };
 
 function initialsFromEmail(email: string): string {

@@ -2,16 +2,9 @@
 // Implements: 12_ToolManifestSpecification §5.1, 16_EventSchemaSpecification.
 
 // ─── Tool Categorisation ─────────────────────────────────────
-export type ToolCategory =
-  | 'image'
-  | 'pdf'
-  | 'developer'
-  | 'text'
-  | 'converters'
-  | 'seo'
-  | 'calculators'
-  | 'utility'
-  | 'ai';
+// Narrowed to `image` while the platform focuses on shipping the image
+// toolset to production. Add categories back here as they are re-introduced.
+export type ToolCategory = 'image';
 
 // ─── Feature Lifecycle (LOCK-12) ─────────────────────────────
 export type FeatureLifecycle =

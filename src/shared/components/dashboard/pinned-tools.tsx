@@ -6,10 +6,10 @@ import { Pin, ArrowUpRight } from 'lucide-react';
 import { routes } from '@/shared/config/routes';
 
 const PINNED = [
-  { slug: 'pdf-merge', category: 'pdf', title: 'PDF Merger' },
   { slug: 'image-resize', category: 'image', title: 'Image Resizer' },
-  { slug: 'json-formatter', category: 'developer', title: 'JSON Formatter' },
-  { slug: 'case-converter', category: 'text', title: 'Case Converter' },
+  { slug: 'image-compress', category: 'image', title: 'Image Compressor' },
+  { slug: 'image-crop', category: 'image', title: 'Image Cropper' },
+  { slug: 'image-format-convert', category: 'image', title: 'Format Converter' },
 ];
 
 export function PinnedTools() {

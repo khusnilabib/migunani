@@ -4,17 +4,8 @@
 
 import { z } from 'zod';
 
-export const toolCategorySchema = z.enum([
-  'image',
-  'pdf',
-  'developer',
-  'text',
-  'converters',
-  'seo',
-  'calculators',
-  'utility',
-  'ai',
-]);
+// Single-category focus: only `image` tools ship right now.
+export const toolCategorySchema = z.enum(['image']);
 
 export const featureLifecycleSchema = z.enum([
   'concept',

@@ -32,7 +32,7 @@ test.describe('SEO metadata', () => {
   });
 
   test('tool page has SoftwareApplication JSON-LD', async ({ page }) => {
-    await page.goto('/tools/text/case-converter');
+    await page.goto('/tools/image/image-resize');
     await page.waitForLoadState('networkidle');
 
     // SoftwareApplication JSON-LD

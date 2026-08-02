@@ -11,28 +11,22 @@ import { routes } from '@/shared/config/routes';
 
 const COLLECTIONS = [
   {
-    title: 'Image Toolkit',
-    description: 'Resize, compress, crop, rotate, and convert images — all in your browser.',
-    slugs: ['image-resize', 'image-compress', 'image-crop', 'image-rotate', 'image-format-convert'],
+    title: 'Resize & Compress',
+    description: 'Shrink dimensions and file size without leaving your browser.',
+    slugs: ['image-resize', 'image-compress'],
     accent: 'from-blue-500/10 to-blue-600/5',
   },
   {
-    title: 'PDF Power Pack',
-    description: 'Merge, split, compress, rotate, extract, protect, and unlock PDF documents.',
-    slugs: ['pdf-merge', 'pdf-split', 'pdf-compress', 'pdf-rotate', 'pdf-extract-pages', 'pdf-protect', 'pdf-unlock'],
-    accent: 'from-red-500/10 to-red-600/5',
-  },
-  {
-    title: 'Developer Essentials',
-    description: 'Base64, URL encode, UUID, JWT decoder, JSON formatter, and hash generator.',
-    slugs: ['base64-encoder', 'url-encoder', 'uuid-generator', 'jwt-decoder', 'json-formatter', 'hash-generator'],
-    accent: 'from-green-500/10 to-green-600/5',
-  },
-  {
-    title: 'Text Utilities',
-    description: 'Case converter, word counter, dedupe, sort, and diff — for everyday text tasks.',
-    slugs: ['case-converter', 'word-counter', 'remove-duplicate-lines', 'sort-lines', 'text-diff'],
+    title: 'Crop & Rotate',
+    description: 'Frame the shot and fix orientation in a couple of clicks.',
+    slugs: ['image-crop', 'image-rotate'],
     accent: 'from-purple-500/10 to-purple-600/5',
+  },
+  {
+    title: 'Format Conversion',
+    description: 'Convert between PNG, JPEG, and WebP with full quality control.',
+    slugs: ['image-format-convert'],
+    accent: 'from-green-500/10 to-green-600/5',
   },
 ];
 

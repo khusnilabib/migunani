@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 };
 
 const COMPLETED = [
-  { title: '23 Browser-First Tools', desc: 'Image, PDF, developer, and text tools — all running locally.' },
+  { title: '5 Browser-First Image Tools', desc: 'Resize, compress, crop, rotate, and convert — all running locally.' },
   { title: 'Premium UI & Dark Mode', desc: 'Clean, minimal, responsive design with full dark mode support.' },
   { title: 'Search & Command Palette', desc: 'Raycast-like search overlay with keyboard navigation.' },
   { title: 'SEO & Structured Data', desc: 'JSON-LD, sitemap, RSS feed, OpenGraph, Twitter Cards.' },

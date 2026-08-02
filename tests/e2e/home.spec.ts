@@ -14,7 +14,7 @@ test.describe('Homepage', () => {
     const search = page.getByRole('searchbox', { name: /search/i }).or(page.locator('input[type="search"]').first());
     if (await search.count() > 0) {
       await search.first().click();
-      await search.first().fill('base64');
+      await search.first().fill('resize');
     }
 
     // Tool grid / category list is present

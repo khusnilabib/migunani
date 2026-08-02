@@ -2,7 +2,7 @@
 
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ArrowUpRight, ImageIcon, FileText, Code, Type, Search as SearchIcon } from 'lucide-react';
+import { ArrowUpRight, ImageIcon, Search as SearchIcon } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { PageContainer } from '@/shared/components/page-container';
@@ -12,16 +12,13 @@ import { routes } from '@/shared/config/routes';
 import { siteConfig } from '@/shared/config/site-config';
 
 export const metadata: Metadata = {
-  title: 'All Tools — 23 Browser-First Productivity Tools',
-  description: 'Browse all 23 tools. Image, PDF, developer, and text utilities — all running locally in your browser.',
+  title: 'All Tools — Browser-First Image Tools',
+  description: 'Browse every Migunani image tool — resize, compress, crop, rotate, and convert, all running locally in your browser.',
   alternates: { canonical: `${siteConfig.url}/tools` },
 };
 
 const CATEGORY_ICONS: Record<string, React.ElementType> = {
   image: ImageIcon,
-  pdf: FileText,
-  developer: Code,
-  text: Type,
 };
 
 export default function AllToolsPage() {

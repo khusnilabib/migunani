@@ -10,12 +10,11 @@ import { allManifests } from '@/generated/registry';
 import { routes } from '@/shared/config/routes';
 
 const FEATURED_SLUGS = [
-  'pdf-merge',
   'image-resize',
-  'json-formatter',
-  'case-converter',
-  'base64-encoder',
   'image-compress',
+  'image-format-convert',
+  'image-crop',
+  'image-rotate',
 ];
 
 export function FeaturedTools() {

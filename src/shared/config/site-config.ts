@@ -20,5 +20,5 @@ export const siteConfig: SiteConfig = {
   url: getPublicEnv().siteUrl,
   locale: 'en_US',
   twitterHandle: '@migunani',
-  categories: ['image', 'pdf', 'developer', 'text', 'converters', 'seo', 'calculators'],
+  categories: ['image'],
 };

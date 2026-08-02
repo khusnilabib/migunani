@@ -10,14 +10,14 @@ import { allManifests } from '@/generated/registry';
 import { routes } from '@/shared/config/routes';
 
 const POPULAR_SEARCHES = [
-  'merge pdf',
   'resize image',
-  'format json',
-  'base64 encode',
   'compress image',
-  'convert case',
-  'generate uuid',
-  'decode jwt',
+  'convert to webp',
+  'crop image',
+  'rotate image',
+  'png to jpg',
+  'reduce image size',
+  'jpg to webp',
 ];
 
 export function PopularSearches() {
