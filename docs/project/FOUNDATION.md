@@ -337,12 +337,35 @@ The repo already maximised all three and it did not produce a product.
 | D-2 | `onnxruntime-web` directly vs `transformers.js` | Phase 1 start |
 | D-3 | Prisma or Drizzle — pick one, delete the other's deps | Phase 0 |
 | D-4 | Keep AdSense hooks, or remove ads entirely to protect positioning | Phase 2 |
-| D-5 | Primary market: Indonesia-first (localised, Shopee/Tokopedia framing) or global-English | Phase 2 |
+| ~~D-5~~ | ~~Primary market~~ → **RESOLVED 2026-08-02: Indonesia-first.** See §11 and `MARKET_INDONESIA.md`. | — |
 | D-6 | Slug: `remove-background` vs `image-background-remover` (SEO) | Phase 1 start |
 
 ---
 
-## 10. Relationship to existing documentation
+## 10. Market decision: Indonesia-first
+
+**Decided 2026-08-02.** The primary market is **Indonesia**, in Bahasa
+Indonesia, aimed at marketplace sellers (Shopee, Tokopedia, TikTok Shop,
+Lazada). Global-English is a later expansion, not a parallel effort.
+
+This is not only a translation decision — it changes pricing, SEO, payments,
+and the device performance floor. Details and the execution plan are in
+**`docs/project/MARKET_INDONESIA.md`**. The three consequences that bind
+other sections of this document:
+
+- **§5.1 pricing is void for this market.** A $7–9/mo card subscription does
+  not convert in Indonesia. Replaced by IDR pricing with local payment rails
+  (see `MARKET_INDONESIA.md` §3).
+- **§4.4 quality bar gets a harder device floor.** The target user is on a
+  mid-range Android phone, not a laptop. WASM — not WebGPU — is the realistic
+  primary path, which makes model size a conversion metric, not a detail.
+- **§3.1 `execution: 'browser'` becomes a stronger selling point,** because it
+  also means *works on slow connections after first load* and *no data quota
+  burned per image* — arguments that matter more here than in the US.
+
+---
+
+## 11. Relationship to existing documentation
 
 - **Supersedes** the scope and tool-count ambitions in `docs/00_Project_Charter.md`,
   `docs/01_BRD.md`, `docs/37_MVPImplementationPlan.md`, and the sprint/backlog docs.
