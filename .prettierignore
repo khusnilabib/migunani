@@ -4,7 +4,5 @@ out/
 build/
 bun.lock
 docs/
-examples/
 skills/
-mini-services/
 *.md
