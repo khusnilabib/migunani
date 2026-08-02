@@ -10,8 +10,8 @@ import { UsageChart } from '@/shared/components/admin/usage-chart';
 import { ActivityTimeline } from '@/shared/components/admin/activity-timeline';
 
 export const metadata = {
-  title: 'Admin Dashboard — Toolbox',
-  description: 'Operational control center for the Toolbox platform.',
+  title: 'Admin Dashboard — Migunani',
+  description: 'Operational control center for the Migunani platform.',
   robots: { index: false, follow: false },
 };
 
@@ -25,7 +25,7 @@ export default function AdminDashboardPage() {
       <div>
         <h1 className="text-2xl font-semibold tracking-tight">Dashboard</h1>
         <p className="mt-1 text-sm text-muted-foreground">
-          Real-time operational overview of the Toolbox platform.
+          Real-time operational overview of the Migunani platform.
         </p>
       </div>
 

@@ -13,12 +13,12 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: 'Toolbox',
-  shortName: 'Toolbox',
+  name: 'Migunani',
+  shortName: 'Migunani',
   description:
     'Browser-first productivity tools. Privacy-respecting, fast, and free. No accounts required for core tasks.',
   url: getPublicEnv().siteUrl,
   locale: 'en_US',
-  twitterHandle: '@toolbox',
+  twitterHandle: '@migunani',
   categories: ['image', 'pdf', 'developer', 'text', 'converters', 'seo', 'calculators'],
 };

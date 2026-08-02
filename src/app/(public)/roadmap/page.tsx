@@ -11,8 +11,8 @@ import { siteConfig } from '@/shared/config/site-config';
 import { RoadmapVoting } from './roadmap-voting';
 
 export const metadata: Metadata = {
-  title: 'Roadmap — Nexori',
-  description: 'See what we are building next. Vote on features and shape the future of Nexori.',
+  title: 'Roadmap — Migunani',
+  description: 'See what we are building next. Vote on features and shape the future of Migunani.',
   alternates: { canonical: `${siteConfig.url}/roadmap` },
 };
 
@@ -52,7 +52,7 @@ export default function RoadmapPage() {
 
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">Product Roadmap</h1>
           <p className="mt-2 text-sm text-muted-foreground text-pretty">
-            See what we are building next. Vote on features and help shape the future of Nexori.
+            See what we are building next. Vote on features and help shape the future of Migunani.
           </p>
 
           {/* Completed */}

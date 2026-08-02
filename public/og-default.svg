@@ -14,13 +14,13 @@
   <!-- Logo mark -->
   <g transform="translate(540, 120)">
     <rect x="0" y="0" width="120" height="120" rx="28" fill="#FAFAFA"/>
-    <path d="M30 40 L90 40 L90 52 L64 52 L64 88 L56 88 L56 52 L30 52 Z" fill="#0A0A0A"/>
-    <circle cx="90" cy="40" r="5" fill="#3B82F6"/>
+    <path d="M15,85.3 L41.3,35.6 L67.5,85.3 L54.4,85.3 L41.3,60.6 L28.1,85.3 Z" fill="#0A0A0A"/>
+    <path d="M52.5,85.3 L78.8,35.6 L105,85.3 L91.9,85.3 L78.8,60.6 L65.6,85.3 Z" fill="#3B82F6"/>
   </g>
 
   <!-- Title -->
   <text x="600" y="340" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="56" font-weight="700" fill="#FAFAFA" letter-spacing="-1">
-    Toolbox
+    Migunani
   </text>
 
   <!-- Tagline -->

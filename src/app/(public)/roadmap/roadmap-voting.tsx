@@ -20,7 +20,7 @@ export function RoadmapVoting({ title, desc, initialVotes, status }: RoadmapVoti
 
   useEffect(() => {
     try {
-      const votedItems = JSON.parse(localStorage.getItem('nexori:roadmap-votes') ?? '[]');
+      const votedItems = JSON.parse(localStorage.getItem('migunani:roadmap-votes') ?? '[]');
       if (votedItems.includes(title)) {
         queueMicrotask(() => setVoted(true));
       }
@@ -34,9 +34,9 @@ export function RoadmapVoting({ title, desc, initialVotes, status }: RoadmapVoti
     setVoted(true);
     setVotes((v) => v + 1);
     try {
-      const votedItems = JSON.parse(localStorage.getItem('nexori:roadmap-votes') ?? '[]');
+      const votedItems = JSON.parse(localStorage.getItem('migunani:roadmap-votes') ?? '[]');
       votedItems.push(title);
-      localStorage.setItem('nexori:roadmap-votes', JSON.stringify(votedItems));
+      localStorage.setItem('migunani:roadmap-votes', JSON.stringify(votedItems));
     } catch {
       // ignore
     }

@@ -32,6 +32,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -52,3 +53,24 @@ prompt
 server.log
 # Skills directory
 /skills/
+# test artifacts
+test-results.xml
+/test-results/
+/playwright-report/
+/blob-report/
+.lighthouseci
+
+# local database files
+db/*.db
+db/*.db-journal
+db/*.sqlite
+db/*.sqlite3
+
+# runtime pid files
+.zscripts/*.pid
+*.pid
+
+# local scratch / screenshot artifacts (not part of the app)
+/download/
+/upload/
+/lighthouse-reports/

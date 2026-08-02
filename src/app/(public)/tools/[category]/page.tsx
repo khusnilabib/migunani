@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: `${cat.description} All tools run locally in your browser. No sign-up required.`,
     alternates: { canonical: `${siteConfig.url}/tools/${category}` },
     openGraph: {
-      title: `${cat.name} — Toolbox`,
+      title: `${cat.name} — Migunani`,
       description: cat.description,
       url: `${siteConfig.url}/tools/${category}`,
       type: 'website',

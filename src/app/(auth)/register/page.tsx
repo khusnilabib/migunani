@@ -5,7 +5,7 @@ import { RegisterForm } from './register-form';
 
 export const metadata: Metadata = {
   title: 'Create account',
-  description: 'Create a free Toolbox account to track tools, history, and favorites.',
+  description: 'Create a free Migunani account to track tools, history, and favorites.',
 };
 
 export default function RegisterPage() {

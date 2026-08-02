@@ -20,8 +20,8 @@ export interface SyncableHistory {
   timestamp: number;
 }
 
-const FAV_QUEUE_KEY = 'nexori:sync:favorites';
-const HIST_QUEUE_KEY = 'nexori:sync:history';
+const FAV_QUEUE_KEY = 'migunani:sync:favorites';
+const HIST_QUEUE_KEY = 'migunani:sync:history';
 
 /**
  * Load pending sync queue from localStorage.

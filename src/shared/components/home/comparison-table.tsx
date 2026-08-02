@@ -7,16 +7,16 @@ import { PageContainer } from '@/shared/components/page-container';
 import { SectionHeading } from '@/shared/components/section-heading';
 
 const FEATURES = [
-  { feature: 'Runs in your browser', toolbox: true, traditional: false, desktop: true },
-  { feature: 'No account required', toolbox: true, traditional: false, desktop: true },
-  { feature: 'No file uploads', toolbox: true, traditional: false, desktop: true },
-  { feature: 'No tracking or analytics on data', toolbox: true, traditional: false, desktop: true },
-  { feature: 'Instant execution', toolbox: true, traditional: false, desktop: true },
-  { feature: 'Works offline', toolbox: false, traditional: false, desktop: true },
-  { feature: 'No installation needed', toolbox: true, traditional: true, desktop: false },
-  { feature: 'Cross-platform', toolbox: true, traditional: true, desktop: false },
-  { feature: 'Always up-to-date', toolbox: true, traditional: true, desktop: false },
-  { feature: 'Free with no limits', toolbox: true, traditional: false, desktop: false },
+  { feature: 'Runs in your browser', migunani: true, traditional: false, desktop: true },
+  { feature: 'No account required', migunani: true, traditional: false, desktop: true },
+  { feature: 'No file uploads', migunani: true, traditional: false, desktop: true },
+  { feature: 'No tracking or analytics on data', migunani: true, traditional: false, desktop: true },
+  { feature: 'Instant execution', migunani: true, traditional: false, desktop: true },
+  { feature: 'Works offline', migunani: false, traditional: false, desktop: true },
+  { feature: 'No installation needed', migunani: true, traditional: true, desktop: false },
+  { feature: 'Cross-platform', migunani: true, traditional: true, desktop: false },
+  { feature: 'Always up-to-date', migunani: true, traditional: true, desktop: false },
+  { feature: 'Free with no limits', migunani: true, traditional: false, desktop: false },
 ];
 
 function StatusIcon({ value }: { value: boolean | null }) {
@@ -31,7 +31,7 @@ export function ComparisonTable() {
       <PageContainer className="py-16 sm:py-20">
         <SectionHeading
           eyebrow="Compare"
-          title="Why Toolbox?"
+          title="Why Migunani?"
           description="See how we compare to traditional online tools and desktop apps."
         />
 
@@ -44,7 +44,7 @@ export function ComparisonTable() {
                     <th className="px-6 py-4 text-left font-medium text-muted-foreground">Feature</th>
                     <th className="px-6 py-4 text-center">
                       <div className="flex flex-col items-center gap-1">
-                        <Badge variant="default">Toolbox</Badge>
+                        <Badge variant="default">Migunani</Badge>
                       </div>
                     </th>
                     <th className="px-6 py-4 text-center font-medium text-muted-foreground">
@@ -61,7 +61,7 @@ export function ComparisonTable() {
                       <td className="px-6 py-3.5 text-foreground">{row.feature}</td>
                       <td className="px-6 py-3.5 text-center">
                         <div className="flex justify-center">
-                          <StatusIcon value={row.toolbox} />
+                          <StatusIcon value={row.migunani} />
                         </div>
                       </td>
                       <td className="px-6 py-3.5 text-center">

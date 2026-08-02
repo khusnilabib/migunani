@@ -41,7 +41,7 @@ export function SiteFooter() {
                 <Github className="h-4 w-4" aria-hidden />
               </a>
               <a
-                href="mailto:hello@toolbox.app"
+                href="mailto:hello@migunani.app"
                 className="flex h-8 w-8 items-center justify-center rounded-md border border-border text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
                 aria-label="Email"
               >

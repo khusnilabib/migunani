@@ -43,9 +43,9 @@ export function FeedbackWidget({ toolSlug, toolCategory }: FeedbackWidgetProps) 
   const handleSubmitComment = useCallback(() => {
     // Store locally as backup
     try {
-      const existing = JSON.parse(localStorage.getItem('nexori:feedback') ?? '[]');
+      const existing = JSON.parse(localStorage.getItem('migunani:feedback') ?? '[]');
       existing.push({ slug: toolSlug, feedback, comment, timestamp: Date.now() });
-      localStorage.setItem('nexori:feedback', JSON.stringify(existing));
+      localStorage.setItem('migunani:feedback', JSON.stringify(existing));
     } catch {
       // localStorage might be unavailable
     }

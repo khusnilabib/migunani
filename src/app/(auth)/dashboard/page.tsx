@@ -14,7 +14,7 @@ import { DashboardView } from './dashboard-view';
 
 export const metadata: Metadata = {
   title: 'Dashboard',
-  description: 'Your Toolbox dashboard — recent tools, history, favorites, and account.',
+  description: 'Your Migunani dashboard — recent tools, history, favorites, and account.',
 };
 
 export default async function DashboardPage() {

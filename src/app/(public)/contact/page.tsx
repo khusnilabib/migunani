@@ -11,15 +11,15 @@ import { siteConfig } from '@/shared/config/site-config';
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: 'Get in touch with the Nexori team. We welcome feedback, bug reports, and feature requests.',
+  description: 'Get in touch with the Migunani team. We welcome feedback, bug reports, and feature requests.',
   alternates: { canonical: `${siteConfig.url}/contact` },
 };
 
 const CONTACT_OPTIONS = [
-  { icon: Mail, title: 'General inquiries', description: 'Questions about Nexori, partnerships, or press.', email: 'hello@nexori.app' },
-  { icon: Bug, title: 'Bug reports', description: 'Found a bug? Let us know so we can fix it.', email: 'bugs@nexori.app' },
-  { icon: Lightbulb, title: 'Feature requests', description: 'Have an idea for a new tool or improvement?', email: 'features@nexori.app' },
-  { icon: ShieldCheck, title: 'Privacy & security', description: 'Privacy questions or security vulnerability reports.', email: 'privacy@nexori.app' },
+  { icon: Mail, title: 'General inquiries', description: 'Questions about Migunani, partnerships, or press.', email: 'hello@migunani.app' },
+  { icon: Bug, title: 'Bug reports', description: 'Found a bug? Let us know so we can fix it.', email: 'bugs@migunani.app' },
+  { icon: Lightbulb, title: 'Feature requests', description: 'Have an idea for a new tool or improvement?', email: 'features@migunani.app' },
+  { icon: ShieldCheck, title: 'Privacy & security', description: 'Privacy questions or security vulnerability reports.', email: 'privacy@migunani.app' },
 ];
 
 export default function ContactPage() {

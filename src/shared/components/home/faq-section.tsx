@@ -19,7 +19,7 @@ const FAQS = [
     answer: 'No. All core tools run entirely in your browser using WebAssembly, Canvas, and Web APIs. Your files never leave your device. This is a core architectural principle we call "browser-first".',
   },
   {
-    question: 'Is Toolbox really free?',
+    question: 'Is Migunani really free?',
     answer: 'Yes. All 23 tools are completely free with no usage limits, no watermarks, and no premium tier. We don\'t sell your data because we never collect it in the first place.',
   },
   {
@@ -27,12 +27,12 @@ const FAQS = [
     answer: 'Three ways: (1) Privacy — your data stays on your device. (2) Speed — no server round-trip means instant results. (3) Consistency — every tool follows the same 7-stage lifecycle with predictable UX.',
   },
   {
-    question: 'Can I use Toolbox offline?',
+    question: 'Can I use Migunani offline?',
     answer: 'After the first visit, the platform is cached by your browser via a service worker. Most tools will work offline. We\'re working on full PWA support for offline tool execution.',
   },
   {
     question: 'What browsers are supported?',
-    answer: 'Toolbox works on all modern browsers: Chrome, Firefox, Safari, and Edge (latest 2 versions). Some tools use advanced Web APIs that may not be available in older browsers.',
+    answer: 'Migunani works on all modern browsers: Chrome, Firefox, Safari, and Edge (latest 2 versions). Some tools use advanced Web APIs that may not be available in older browsers.',
   },
 ];
 

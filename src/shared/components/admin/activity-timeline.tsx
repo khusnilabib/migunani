@@ -16,10 +16,10 @@ interface TimelineEvent {
 const EVENTS: TimelineEvent[] = [
   { icon: User, action: 'User signed in', user: 'guest@example.com', timestamp: '2 min ago', ip: '192.168.1.1' },
   { icon: Wrench, action: 'Tool executed: PDF Merger', user: 'guest@example.com', timestamp: '5 min ago' },
-  { icon: Flag, action: 'Feature flag toggled: beta-tools', user: 'admin@toolbox', timestamp: '12 min ago', severity: 'warning' },
+  { icon: Flag, action: 'Feature flag toggled: beta-tools', user: 'admin@migunani', timestamp: '12 min ago', severity: 'warning' },
   { icon: User, action: 'New user registered', user: 'newuser@example.com', timestamp: '25 min ago' },
   { icon: Shield, action: 'Rate limit triggered on /api/auth', user: '203.0.113.5', timestamp: '1 hour ago', severity: 'critical' },
-  { icon: Settings, action: 'Admin settings updated', user: 'admin@toolbox', timestamp: '2 hours ago' },
+  { icon: Settings, action: 'Admin settings updated', user: 'admin@migunani', timestamp: '2 hours ago' },
   { icon: Wrench, action: 'Tool executed: Image Resizer', user: 'guest@example.com', timestamp: '3 hours ago' },
 ];
 

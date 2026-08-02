@@ -10,8 +10,8 @@ import { routes } from '@/shared/config/routes';
 import { siteConfig } from '@/shared/config/site-config';
 
 export const metadata: Metadata = {
-  title: 'Changelog — Nexori',
-  description: 'Track every update to Nexori — new features, improvements, and bug fixes.',
+  title: 'Changelog — Migunani',
+  description: 'Track every update to Migunani — new features, improvements, and bug fixes.',
   alternates: { canonical: `${siteConfig.url}/changelog` },
 };
 
@@ -21,7 +21,7 @@ const ENTRIES = [
     date: 'July 2026',
     tag: 'Major',
     changes: [
-      'Rebranded from Toolbox to Nexori',
+      'Rebranded to Migunani',
       'Premium homepage redesign — reduced to 6 sections',
       'Universal action bar: Download, Copy Result, Share, Modify Input',
       'Quality slider and Run button visibility fixes (Tailwind v4)',
@@ -72,7 +72,7 @@ export default function ChangelogPage() {
 
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">Changelog</h1>
           <p className="mt-2 text-sm text-muted-foreground">
-            Every update to Nexori — new features, improvements, and fixes.
+            Every update to Migunani — new features, improvements, and fixes.
           </p>
 
           {/* Timeline */}

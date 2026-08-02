@@ -7,7 +7,7 @@
 
 import { useCallback, useEffect, useState } from 'react';
 
-const STORAGE_KEY = 'toolbox:favorites';
+const STORAGE_KEY = 'migunani:favorites';
 
 export interface FavoriteTool {
   slug: string;

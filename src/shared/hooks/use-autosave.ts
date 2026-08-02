@@ -28,7 +28,7 @@ export interface AutosaveResult<T> {
   error: string | null;
 }
 
-const NAMESPACE = 'toolbox-prefs';
+const NAMESPACE = 'migunani-prefs';
 
 export function useAutosave<T>(options: AutosaveOptions<T>): AutosaveResult<T> {
   const { key, debounceMs = 1000, syncToCloud = false, syncFn } = options;

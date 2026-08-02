@@ -40,7 +40,7 @@ export class IndexedDbStorageAdapter implements StorageAdapter {
   private memoryFallback = new MemoryStorageAdapter();
   private dbPromise: Promise<IDBDatabase | null> | null = null;
 
-  constructor(dbName = 'toolbox-storage', storeName = 'blobs') {
+  constructor(dbName = 'migunani-storage', storeName = 'blobs') {
     this.dbName = dbName;
     this.storeName = storeName;
   }
