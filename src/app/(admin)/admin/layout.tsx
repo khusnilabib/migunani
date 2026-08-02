@@ -6,8 +6,8 @@ import { AdminSidebarClient } from './admin-sidebar-client';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Admin Console — Toolbox',
-  description: 'Operational control center for the Toolbox platform.',
+  title: 'Admin Console — Migunani',
+  description: 'Operational control center for the Migunani platform.',
   robots: { index: false, follow: false },
 };
 

@@ -1,4 +1,4 @@
-# Toolbox — Browser-First Productivity Ecosystem
+# Migunani — Browser-First Productivity Ecosystem
 
 > The largest browser-first online tools platform. Hundreds to thousands of practical tools, no software install, no account required.
 
@@ -21,7 +21,7 @@
 ```bash
 # Clone and install
 git clone <repo-url>
-cd toolbox
+cd migunani
 bun install
 
 # Copy environment template

@@ -12,7 +12,7 @@ import { allManifests } from '@/generated/registry';
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Nexori is a browser-first productivity platform. Learn about our mission and values.',
+  description: 'Migunani is a browser-first productivity platform. Learn about our mission and values.',
   alternates: { canonical: `${siteConfig.url}/about` },
 };
 
@@ -38,7 +38,7 @@ export default function AboutPage() {
             </ol>
           </nav>
 
-          <h1 className="text-4xl font-bold tracking-tight text-balance">About Nexori</h1>
+          <h1 className="text-4xl font-bold tracking-tight text-balance">About Migunani</h1>
           <p className="mt-4 text-lg text-muted-foreground text-pretty">
             We're building the largest browser-first productivity platform — hundreds of practical tools that respect your privacy and run entirely in your browser.
           </p>
@@ -48,7 +48,7 @@ export default function AboutPage() {
           <SectionHeading eyebrow="Mission" title="Privacy is not a feature. It's the foundation." />
           <div className="mt-6 space-y-4 text-sm leading-relaxed text-muted-foreground text-pretty">
             <p>Most online tool sites upload your files to their servers. We believe there's a better way. Modern browsers can resize images, merge PDFs, format JSON — all without sending a single byte to a server.</p>
-            <p>Nexori harnesses this power to give you tools that are faster, more private, and completely free. Your data never leaves your device.</p>
+            <p>Migunani harnesses this power to give you tools that are faster, more private, and completely free. Your data never leaves your device.</p>
           </div>
         </div>
 

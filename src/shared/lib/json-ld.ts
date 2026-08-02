@@ -24,7 +24,7 @@ export function organizationJsonLd(): JsonLd {
     },
     sameAs: [
       `https://twitter.com/${siteConfig.twitterHandle.replace('@', '')}`,
-      'https://github.com/toolbox',
+      'https://github.com/migunani',
     ],
   };
 }

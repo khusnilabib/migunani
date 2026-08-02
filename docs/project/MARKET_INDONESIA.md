@@ -192,9 +192,59 @@ proof of willingness to pay, not a revenue target.
 |---|---|---|
 | ID-1 | Payment aggregator: Midtrans vs Xendit vs Duitku | Phase 3 |
 | ID-2 | Prepaid pack, subscription, or both at launch | Phase 3 |
-| ID-3 | Domain/brand: Indonesian-language brand or keep neutral English name | Phase 2 |
+| ~~ID-3~~ | ~~Domain/brand~~ → **RESOLVED 2026-08-02: Migunani.** See §8. | — |
 | ID-4 | Locale routing: `id` at root with `/en/` later, vs `/id/` + `/en/` from the start | **Phase 1 — blocks SEO work** |
 | ID-5 | Does MODNet quality suffice for product photos? (would cut model to ~7 MB) | Phase 1 |
 
 ID-4 is the urgent one: getting locale routing wrong means rewriting every
 canonical URL after Phase 2 SEO is already indexed.
+
+---
+
+## 8. Brand: Migunani (resolves ID-3)
+
+**Decided 2026-08-02.** The brand is **Migunani** — Javanese for *"useful /
+of benefit"*.
+
+### Why it fits the Indonesia-first strategy
+
+- **Local resonance.** A Javanese word signals a local product to a local
+  audience, which is an advantage against remove.bg, Photoroom and Canva —
+  all unmistakably foreign. It reads as familiar and trustworthy to the
+  target seller.
+- **It states the promise.** The name means "useful". That is exactly the
+  positioning: a tool that does a real job, for free, without extracting
+  anything from the user.
+- **Distinctive and ownable.** Unlike "Toolbox" — generic, unregistrable, and
+  impossible to rank for — "Migunani" is a distinct brand term with an open
+  namespace for domain and social handles.
+
+### Trade-off, accepted
+
+The name is harder for a global-English audience to spell, pronounce, and
+recall. That cost is accepted: `FOUNDATION.md` commits to Indonesia-first, and
+global expansion is deferred past the Phase 3 gate. If the product later
+expands, the brand can carry an English descriptor rather than be renamed.
+
+### Applied in code
+
+The rename is complete across the app: `siteConfig`, `NEXT_PUBLIC_SITE_NAME`
+default, PWA manifest, OG image, logo, JSON-LD, and all page copy.
+
+**Storage keys were deliberately left unchanged.** `localStorage`,
+`IndexedDB`, and sync-queue keys still use the historical `toolbox:*` and
+`nexori:*` namespaces, because the site is already deployed on Vercel and
+renaming them would orphan existing visitors' favourites, history,
+preferences, and cached data. They are internal identifiers with no user-facing
+surface. Migrate them only with a deliberate read-old/write-new migration, not
+as part of a rename.
+
+### Still to do (not code)
+
+| Item | Note |
+|---|---|
+| Domain | `migunani.app` is used as a placeholder in contact/privacy/terms copy — register the real domain and confirm before launch |
+| Email addresses | `hello@`, `bugs@`, `privacy@`, `legal@` are placeholders |
+| Social handles | `@migunani` (Twitter/X), `github.com/migunani` referenced in JSON-LD |
+| Logo mark | Current SVG is a geometric "T" from the Toolbox era — needs redesign for the new name |
+| `siteConfig.locale` | Still `en_US`; becomes `id_ID` in the Phase 1 localisation work (§4.4) |

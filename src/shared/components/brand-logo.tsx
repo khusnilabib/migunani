@@ -1,5 +1,5 @@
 // src/shared/components/brand-logo.tsx — Brand logo component.
-// Renders the Toolbox logo mark + wordmark with consistent sizing.
+// Renders the Migunani logo mark + wordmark with consistent sizing.
 
 import Link from 'next/link';
 import { routes } from '@/shared/config/routes';
@@ -48,7 +48,7 @@ export function BrandLogo({
       </svg>
       {showWordmark && (
         <span className={cn('font-semibold tracking-tight', sizes.text)}>
-          Toolbox
+          Migunani
         </span>
       )}
     </span>
@@ -60,7 +60,7 @@ export function BrandLogo({
     <Link
       href={routes.home}
       className="inline-flex items-center rounded-md transition-opacity hover:opacity-80"
-      aria-label="Toolbox — homepage"
+      aria-label="Migunani — homepage"
     >
       {content}
     </Link>

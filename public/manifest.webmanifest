@@ -1,6 +1,6 @@
 {
-  "name": "Toolbox — Browser-First Productivity Tools",
-  "short_name": "Toolbox",
+  "name": "Migunani — Browser-First Productivity Tools",
+  "short_name": "Migunani",
   "description": "Browser-first productivity tools. Privacy-respecting, fast, and free. No accounts required for core tasks.",
   "start_url": "/",
   "display": "standalone",

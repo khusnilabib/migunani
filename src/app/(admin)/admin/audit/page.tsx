@@ -11,7 +11,7 @@ export const metadata = {
 const SAMPLE_ACTIONS = [
   { action: 'admin.login', user: 'system', timestamp: '2026-06-29T05:00:00Z', ip: '127.0.0.1' },
   { action: 'tool.viewed', user: 'guest', timestamp: '2026-06-29T05:01:00Z', ip: '192.168.1.1' },
-  { action: 'feature_flag.toggled', user: 'admin@toolbox', timestamp: '2026-06-29T05:02:00Z', ip: '127.0.0.1' },
+  { action: 'feature_flag.toggled', user: 'admin@migunani', timestamp: '2026-06-29T05:02:00Z', ip: '127.0.0.1' },
 ];
 
 export default function AdminAuditPage() {

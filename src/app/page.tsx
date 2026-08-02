@@ -32,7 +32,7 @@ export default function HomePage() {
       {/* 3. Popular Categories — 4 clean cards */}
       <PopularCategories />
 
-      {/* 4. Why Choose Nexori — 3 compact value cards */}
+      {/* 4. Why Choose Migunani — 3 compact value cards */}
       <WhyChooseUs />
 
       {/* 5. FAQ — 5 questions max */}
