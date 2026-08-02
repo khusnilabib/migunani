@@ -42,11 +42,24 @@
 
 ### Logo Mark
 
-The Migunani logo is a geometric "T" mark representing:
-1. **Tools** — The "T" stands for Migunani
-2. **Construction** — Overlapping bars suggest building/assembling
-3. **Precision** — Sharp angles convey accuracy
-4. **Modernity** — Minimalist geometric form
+The Migunani logo is **twin peaks forming an "M"** — two ascending chevrons
+sharing a baseline.
+
+Meaning:
+1. **"M" for Migunani** — the mark is the initial, not a generic symbol
+2. **Rising / ascending** — *migunani* means "useful"; the upward strokes read
+   as growth and progress for the seller who uses it
+3. **Twin peaks** — two tools, two steps, work done in pairs; also echoes the
+   Indonesian landscape without being literal or touristy
+4. **Geometric precision** — straight edges only, no curves, no gradients
+
+The second peak carries the accent blue: the mark is monochrome plus exactly
+one accent, consistent with the platform's restrained design language.
+
+**Geometry (256×256 viewBox):** apex at y=76, baseline at y=182, peak centres
+at x=88 and x=168, half-width 56, inner notch 28. The two peaks overlap so the
+inner slopes meet — this is what makes the form read as a single "M" rather
+than two separate triangles. Do not increase the gap between them.
 
 ### Logo Variants
 
@@ -63,13 +76,13 @@ The Migunani logo is a geometric "T" mark representing:
 3. **App icon** — Full-bleed for PWA
    - No padding, mark fills the frame
 
-4. **Favicon** — Simplified for small sizes
-   - Reduced detail, thicker strokes
+4. **Favicon** — Same geometry on a 32×32 grid
+   - Optically thickened so the peaks stay legible at 16px
 
 ### Logo Usage
 
-- **Minimum size**: 24px (mark only), 32px (with wordmark)
-- **Clear space**: Equal to the height of the accent dot on all sides
+- **Minimum size**: 16px (favicon variant), 24px (mark only), 32px (with wordmark)
+- **Clear space**: Equal to half the mark's height on all sides
 - **Don't stretch, rotate, or recolor**
 - **Don't place on busy backgrounds** without sufficient contrast
 - **Don't add effects** (shadows, gradients, bevels)

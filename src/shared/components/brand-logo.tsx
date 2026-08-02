@@ -38,13 +38,16 @@ export function BrandLogo({
         aria-hidden="true"
         role="img"
       >
+        {/* Twin peaks forming an "M" — theme-aware */}
         <rect width="256" height="256" rx="56" fill="currentColor" className="text-foreground" />
         <path
-          d="M64 80 L192 80 L192 104 L136 104 L136 192 L120 192 L120 104 L64 104 Z"
+          d="M32,182 L88,76 L144,182 L116,182 L88,129.2 L60,182 Z"
           fill="hsl(var(--background))"
         />
-        <circle cx="192" cy="80" r="8" fill="hsl(var(--accent))" />
-        <rect x="64" y="208" width="128" height="4" rx="2" fill="hsl(var(--accent))" opacity="0.6" />
+        <path
+          d="M112,182 L168,76 L224,182 L196,182 L168,129.2 L140,182 Z"
+          fill="hsl(var(--accent))"
+        />
       </svg>
       {showWordmark && (
         <span className={cn('font-semibold tracking-tight', sizes.text)}>
