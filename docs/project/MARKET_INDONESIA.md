@@ -215,7 +215,7 @@ of benefit"*.
 - **It states the promise.** The name means "useful". That is exactly the
   positioning: a tool that does a real job, for free, without extracting
   anything from the user.
-- **Distinctive and ownable.** Unlike "Toolbox" — generic, unregistrable, and
+- **Distinctive and ownable.** Unlike "Migunani" — generic, unregistrable, and
   impossible to rank for — "Migunani" is a distinct brand term with an open
   namespace for domain and social handles.
 
@@ -231,13 +231,23 @@ expands, the brand can carry an English descriptor rather than be renamed.
 The rename is complete across the app: `siteConfig`, `NEXT_PUBLIC_SITE_NAME`
 default, PWA manifest, OG image, logo, JSON-LD, and all page copy.
 
-**Storage keys were deliberately left unchanged.** `localStorage`,
-`IndexedDB`, and sync-queue keys still use the historical `toolbox:*` and
-`nexori:*` namespaces, because the site is already deployed on Vercel and
-renaming them would orphan existing visitors' favourites, history,
-preferences, and cached data. They are internal identifiers with no user-facing
-surface. Migrate them only with a deliberate read-old/write-new migration, not
-as part of a rename.
+**The rename is total — no legacy namespaces remain.** Because the project is
+pre-production with no real users, storage identifiers were renamed too rather
+than being carried forward for compatibility:
+
+| Identifier | Now |
+|---|---|
+| npm package name | `migunani` (was `browser-tools-platform`) |
+| `localStorage` prefs | `migunani-prefs` |
+| `localStorage` favourites / recents | `migunani:favorites`, `migunani:recent-tools` |
+| Sync queues | `migunani:sync:favorites`, `migunani:sync:history` |
+| Feedback / roadmap votes | `migunani:feedback`, `migunani:roadmap-votes` |
+| IndexedDB database | `migunani-storage` |
+
+This is only safe *before* launch. Once real visitors exist, changing these
+keys orphans their favourites, history, preferences, and cached blobs, and
+would then require a deliberate read-old/write-new migration. **Treat these
+names as frozen from first production traffic onward.**
 
 ### Still to do (not code)
 
@@ -246,5 +256,5 @@ as part of a rename.
 | Domain | `migunani.app` is used as a placeholder in contact/privacy/terms copy — register the real domain and confirm before launch |
 | Email addresses | `hello@`, `bugs@`, `privacy@`, `legal@` are placeholders |
 | Social handles | `@migunani` (Twitter/X), `github.com/migunani` referenced in JSON-LD |
-| Logo mark | Current SVG is a geometric "T" from the Toolbox era — needs redesign for the new name |
+| Logo mark | Current SVG is a geometric "T" from the Migunani era — needs redesign for the new name |
 | `siteConfig.locale` | Still `en_US`; becomes `id_ID` in the Phase 1 localisation work (§4.4) |

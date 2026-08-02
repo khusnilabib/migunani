@@ -7,7 +7,7 @@
 
 import { useCallback, useEffect, useState } from 'react';
 
-const STORAGE_KEY = 'toolbox:recent-tools';
+const STORAGE_KEY = 'migunani:recent-tools';
 const MAX_ITEMS = 5;
 
 export interface RecentTool {

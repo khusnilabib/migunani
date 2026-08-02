@@ -1,4 +1,4 @@
-# Architecture Documentation — Toolbox v1.0.0
+# Architecture Documentation — Migunani v1.0.0
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@
 
 ## Overview
 
-Toolbox is a browser-first productivity ecosystem providing hundreds to thousands of practical tools without requiring software installation or account registration. The platform is built on six core principles:
+Migunani is a browser-first productivity ecosystem providing hundreds to thousands of practical tools without requiring software installation or account registration. The platform is built on six core principles:
 
 1. **Privacy-first** — All core tool processing happens in the browser
 2. **Speed** — Sub-second page loads, instant tool execution
@@ -116,7 +116,7 @@ Immutable contract defining the relationship between code, tests, and deployment
 ## Project Structure
 
 ```
-toolbox/
+migunani/
 ├── src/
 │   ├── app/                          # Next.js App Router
 │   │   ├── (admin)/admin/           # 11 admin modules

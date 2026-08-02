@@ -1,10 +1,10 @@
-# Brand Guidelines — Toolbox v1.0
+# Brand Guidelines — Migunani v1.0
 
 > The visual identity of a browser-first productivity ecosystem.
 
 ## Brand Essence
 
-**Toolbox** is a browser-first productivity platform that respects user privacy. Our brand embodies:
+**Migunani** is a browser-first productivity platform that respects user privacy. Our brand embodies:
 
 - **Privacy-first** — Your data never leaves your device
 - **Speed** — Instant results, no waiting
@@ -42,8 +42,8 @@
 
 ### Logo Mark
 
-The Toolbox logo is a geometric "T" mark representing:
-1. **Tools** — The "T" stands for Toolbox
+The Migunani logo is a geometric "T" mark representing:
+1. **Tools** — The "T" stands for Migunani
 2. **Construction** — Overlapping bars suggest building/assembling
 3. **Precision** — Sharp angles convey accuracy
 4. **Modernity** — Minimalist geometric form
@@ -286,7 +286,7 @@ We don't use photography. The brand is:
 
 ## Conclusion
 
-The Toolbox brand is built on restraint. We use:
+The Migunani brand is built on restraint. We use:
 - One accent color (blue)
 - Two fonts (Inter + JetBrains Mono)
 - One icon set (Lucide)

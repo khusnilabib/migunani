@@ -1,4 +1,4 @@
-# UI Guidelines — Toolbox v1.0
+# UI Guidelines — Migunani v1.0
 
 > Practical guidelines for building consistent, accessible, and beautiful UI.
 

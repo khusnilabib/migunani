@@ -1,8 +1,8 @@
-# Deployment Guide — Toolbox v1.0.0
+# Deployment Guide — Migunani v1.0.0
 
 ## Overview
 
-This guide covers deploying Toolbox to production on Vercel, with optional Supabase, Sentry, and Vercel Analytics integration.
+This guide covers deploying Migunani to production on Vercel, with optional Supabase, Sentry, and Vercel Analytics integration.
 
 ## Prerequisites
 
@@ -189,7 +189,7 @@ Targets:
 ### Custom Domain
 
 1. In Vercel dashboard → Domains → Add
-2. Add your domain (e.g., `toolbox.com`)
+2. Add your domain (e.g., `migunani.com`)
 3. Configure DNS:
    - A record: `@` → `76.76.21.21`
    - CNAME: `www` → `cname.vercel-dns.com`

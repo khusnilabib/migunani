@@ -1,4 +1,4 @@
-# Design System — Toolbox v1.0
+# Design System — Migunani v1.0
 
 > Premium SaaS visual identity for the browser-first productivity ecosystem.
 
@@ -23,7 +23,7 @@
 
 ### Logo
 
-The Toolbox logo is a geometric "T" mark formed by overlapping tool shapes, set against a rounded square background.
+The Migunani logo is a geometric "T" mark formed by overlapping tool shapes, set against a rounded square background.
 
 - **Primary**: Dark background with light mark (for light themes)
 - **Light variant**: Light background with dark mark (for dark themes)

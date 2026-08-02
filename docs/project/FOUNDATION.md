@@ -1,4 +1,4 @@
-# Foundation & Direction — Toolbox as a Production SaaS
+# Foundation & Direction — Migunani as a Production SaaS
 
 > **Status:** Draft v1.0 · **Owner:** khusnilabib · **Created:** 2026-08-02
 > **Scope:** Defines what this project *is*, what it is *for*, and the path from
@@ -26,7 +26,7 @@ is proven.
 
 ### 1.1 One-sentence definition
 
-> **Toolbox is a privacy-first image utility SaaS. It removes image backgrounds
+> **Migunani is a privacy-first image utility SaaS. It removes image backgrounds
 > in the user's own browser — no upload, no account, no queue — and sells
 > volume, resolution, and batch convenience to the people who do it all day.**
 
@@ -45,9 +45,9 @@ traffic. They are **not** the product. They are the funnel and the moat.
 ### 1.3 Positioning statement
 
 For **e-commerce sellers, designers, and marketplace listers** who process
-image backgrounds repeatedly, Toolbox is a **background remover that runs
+image backgrounds repeatedly, Migunani is a **background remover that runs
 locally in the browser**. Unlike remove.bg, Photoroom, and Clipdrop — which
-upload every image to a server and bill per image — Toolbox processes images
+upload every image to a server and bill per image — Migunani processes images
 on the user's own device, which means **confidential photos never leave the
 machine** and **our cost per image is zero**.
 

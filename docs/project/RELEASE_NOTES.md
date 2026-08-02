@@ -8,7 +8,7 @@
 
 ## Overview
 
-Toolbox v1.0.0 is the first production release of the browser-first productivity ecosystem. After 6 sprints of development, the platform is ready to receive real traffic with 23 production-grade tools, complete authentication, comprehensive testing, production-grade security, and full observability.
+Migunani v1.0.0 is the first production release of the browser-first productivity ecosystem. After 6 sprints of development, the platform is ready to receive real traffic with 23 production-grade tools, complete authentication, comprehensive testing, production-grade security, and full observability.
 
 ## Highlights
 

@@ -57,7 +57,7 @@ NEXT_PUBLIC_APP_VERSION=1.0.0
 ```
 
 #### Domain & DNS
-- [ ] Purchase domain (e.g., toolbox.app)
+- [ ] Purchase domain (e.g., migunani.app)
 - [ ] Configure DNS:
   - A record: `@` → `76.76.21.21` (Vercel)
   - CNAME: `www` → `cname.vercel-dns.com`
@@ -412,8 +412,8 @@ NEXT_PUBLIC_APP_VERSION=1.0.0
 ### 5.5 Donation Section
 
 - **Location**: Footer (below trust badges)
-- **Implementation**: "Support Toolbox" button → Stripe / Ko-fi / Buy me a coffee
-- **Copy**: "If Toolbox saved you time, consider supporting us"
+- **Implementation**: "Support Migunani" button → Stripe / Ko-fi / Buy me a coffee
+- **Copy**: "If Migunani saved you time, consider supporting us"
 - **Why**: Low-friction revenue, builds goodwill
 
 ### 5.6 Future Premium Tier
